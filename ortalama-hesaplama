@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+
+
+
+        int ders1,ders2,ders3,ders4;
+
+        Scanner girdi=new Scanner(System.in);
+
+        System.out.println("lütfen sırası ile 4 sınav notunuzu giriniz.");
+        ders1= girdi.nextInt();
+        ders2= girdi.nextInt();
+        ders3= girdi.nextInt();
+        ders4= girdi.nextInt();
+
+        double ortalama=(ders1+ders2+ders3+ders4)/4;
+
+        if (ortalama>=55 && ortalama<101){
+
+
+            System.out.println("tebrikler sınıfı geçtiniz notunuz"+ortalama);
+
+
+        }
+        else if (ortalama<=55){
+
+            System.out.println("sınıfı geçemediniz, seneye başarılar :), notunuz"+ortalama);
+
+        }else {
+
+            System.out.println("lütfen 0-100 arasında değerler giriniz :)");
+
+        }
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+    }
